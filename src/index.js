@@ -24,7 +24,7 @@ mongoose
     )
     .then(() => {
         console.log("Conectando...");
-        app.listen(3000);
+        app.listen(3333);
         console.log("Conectado ao Banco de Dados!");
     })
     .catch((err) => {
