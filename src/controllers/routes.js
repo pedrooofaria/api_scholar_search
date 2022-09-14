@@ -8,10 +8,10 @@ router.post('/', async (req, res) => {
     
     const { titulo, link, descricao } = req.body;
 
-    if(!titulo) {
-        res.status(422).json({error: 'O titulo é obrigatório!'});
-        return;
-    }
+    //if(!titulo) {
+    //    res.status(422).json({error: 'O titulo é obrigatório!'});
+    //    return;
+    //}
 
     const search = {titulo, link, descricao};
 
